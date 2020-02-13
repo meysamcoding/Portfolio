@@ -1,0 +1,143 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+   
+  
+}
+#topnav{
+  background-color:rgb(146,108,190);
+   width: 100%;
+   float: left;
+ 
+   
+}
+#links{
+  
+  font-size: 17px;
+   overflow: hidden;
+   display: flex;
+   margin: 0px;
+   list-style-type:none
+    
+  
+}
+#collapsibleNavbar{
+  float: right;
+
+}
+ 
+li a{
+ text-decoration: none;
+  padding: 20px;
+   margin: 20px;
+   color: black;
+}
+ 
+#logo-image{
+  float: right;
+  width: 120px;
+}
+
+#imgbackground{
+    top: -1;
+    width: 100%;
+    height: 800px;
+}
+
+#textcolor{
+ 
+text-align: center;
+color: white;
+font-size: 70px;
+}
+
+
+/* section about me  */
+
+#section1{
+  background-color: rgb(146,108,190);
+  margin: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+#about-me{
+  text-align: center;
+  padding: 15px;
+   
+}
+#section2{
+  
+  padding-top: 0px;
+  padding-right: 20px;
+   
+  margin-left: 0px;
+}
+
+#email{
+  color: red;
+
+}
+  
+.btn {
+  position: relative;
+  display: inline-block;
+  border: 6px solid rgb(212, 212, 139) ;
+   
+  transition: all .1s ease-in-out;
+  z-index: 99;
+   
+}
+
+.btn span {
+  cursor: pointer;
+}
+
+.btn span {
+  min-width: 426px;
+}
+
+.btn-inr {
+  display: inline-block;
+  color: white;
+  font-weight: 100;
+  font-size: 2em;
+  line-height: 1;
+  text-transform: uppercase;
+   
+  padding: 1em 2em;
+  margin: 6px;
+  transition: all .1s ease-in-out;
+   
+}
+
+.txt-a {
+  display: inline;
+}
+
+.txt-b {
+  display: none;
+}
+
+.btn:focus .btn-inr,
+.btn:hover .btn-inr {
+   
+  padding: 1em 2em;
+  margin: 0;
+}
+
+.btn:focus .txt-a,
+.btn:hover .txt-a { display: none; }
+.btn:focus .txt-b,
+.btn:hover .txt-b { display: inline; }
+
+
+
+#skills{
+  margin: 0px;
+}
+
+.box{
+  padding: 15px 0px 0px 0px;
+  margin-left: 15px 0px 0px 0px;
+}
